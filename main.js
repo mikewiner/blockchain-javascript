@@ -59,10 +59,10 @@ class Blockchain {
 let mikeCoin = new Blockchain();
 
 console.log('mining coin 1...')
-mikeCoin.addBlock(new Block(1, "01/02/2020", {amount:4} ))
+mikeCoin.addBlock(new Block(1, "01/02/2020", {amount:2} ))
 
 console.log('mining coin 2...')
-mikeCoin.addBlock(new Block(2, "01/02/2020", {amount:10} ))
+mikeCoin.addBlock(new Block(2, "01/04/2020", {amount:10} ))
 
 // console.log(JSON.stringify(mikeCoin, null, 4));
 // console.log('is valid?:',mikeCoin.isChainValid());
